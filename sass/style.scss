@@ -54,6 +54,12 @@ html {
     text-decoration:none; 
     list-style: none;
 }
+
+button
+{
+    text-decoration:none; 
+    list-style: none;
+}
   
   .container
   {
@@ -76,6 +82,68 @@ html {
 /*------------------------------------*\
 	Main
 \*------------------------------------*/
+
+/*___________________ Localisation _____________ */
+
+.localisation
+{
+    width: 100%;
+    background-color: rgba(234, 234 , 234, 1);
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+        .fas
+        {
+            margin-right: 15px;
+        }
+}
+
+/*___________________ Main-Header _____________ */
+.main-header
+{
+    background-color: rgba(246, 246, 246, 1);
+    width: 100%;
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+
+        &__content
+        {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h2
+            {
+                font-family: 'Roboto-Bold';
+                font-size: 20px;
+            }
+
+            p
+            {
+                margin-top: 20px;
+            }
+
+            .buttonsearch
+            {
+                margin-top: 35px;
+                height: 50px;
+                width: 215px;
+                border: none;
+                background-color: $ColorSecondary;
+                border-radius: 25px;
+                color: white;
+                font-family: 'Roboto-Bold';
+                font-size: 15px;
+            }
+        }
+}
+
 
 /*------------------------------------*\
 	Footer
