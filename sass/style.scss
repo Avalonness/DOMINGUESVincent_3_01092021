@@ -1,13 +1,125 @@
 /*------------------------------------*\
-	Reset CSS
+	Import
 \*------------------------------------*/
 @import "utils/minireset.scss";
+@import "utils/variables.scss";
+/*------------------------------------*\
+	Font
+\*------------------------------------*/
+/*___________________ Title Font _____________ */
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('../css/fonts/shrikhand/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/shrikhand/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*___________________ Text Font _____________ */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src:url('../css/fonts/roboto/roboto_bold/Roboto-Bold.woff') format('woff'),
+        url('../css/fonts/roboto/roboto_bold/Roboto-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../css/fonts/roboto/roboto_classic/roboto-thin-webfont.woff2') format('woff2'),
+         url('../css/fonts/roboto/roboto_classic/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*------------------------------------*\
 	Général
 \*------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
 
-body
+html {
+    scroll-behavior: smooth;
+  }
+
+  body
+  {
+      font-family: 'robotothin';
+      font-size: 14px;
+      line-height: 1.42857143;
+  }
+
+  a
 {
-    background-color: black;
+    text-decoration:none; 
+    list-style: none;
+}
+  
+  .container
+  {
+      max-width: 100%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+/*------------------------------------*\
+	Header
+\*------------------------------------*/
+.header-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/*------------------------------------*\
+	Main
+\*------------------------------------*/
+
+/*------------------------------------*\
+	Footer
+\*------------------------------------*/
+.footer-container
+{
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(53, 53, 53, 1);
+        &__content 
+        {
+            padding: 25px 20px;
+            .link-partner
+            {
+                font-family: 'Roboto-Bold';
+            }
+
+            a 
+            {
+                color: white;
+            }
+
+            img 
+            {
+                font-size: 15px;
+            }
+
+            ul
+            {
+                margin-top: 25px;
+            }
+
+            li
+            {
+                line-height: 1.9;
+                    .fas
+                    { 
+                    margin-right: 10px;
+                    }
+                    .fa-hands-helping
+                    {
+                        font-size: 10px;
+                    }
+            }
+
+        }
 }

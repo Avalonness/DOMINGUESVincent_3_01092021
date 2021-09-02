@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*------------------------------------*\
-	Reset CSS
+	Import
 \*------------------------------------*/
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -47,10 +47,103 @@ td, th {
 }
 
 /*------------------------------------*\
+	Color
+\*------------------------------------*/
+/*------------------------------------*\
+	Font
+\*------------------------------------*/
+/*___________________ Title Font _____________ */
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("../css/fonts/shrikhand/shrikhand-regular-webfont.woff2") format("woff2"), url("../css/fonts/shrikhand/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*___________________ Text Font _____________ */
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../css/fonts/roboto/roboto_bold/Roboto-Bold.woff") format("woff"), url("../css/fonts/roboto/roboto_bold/Roboto-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotothin";
+  src: url("../css/fonts/roboto/roboto_classic/roboto-thin-webfont.woff2") format("woff2"), url("../css/fonts/roboto/roboto_classic/roboto-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------------------*\
 	Général
 \*------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: black;
+  font-family: "robotothin";
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------------------*\
+	Header
+\*------------------------------------*/
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/*------------------------------------*\
+	Main
+\*------------------------------------*/
+/*------------------------------------*\
+	Footer
+\*------------------------------------*/
+.footer-container {
+  max-width: 100%;
+  width: 100%;
+  background-color: #353535;
+}
+.footer-container__content {
+  padding: 25px 20px;
+}
+.footer-container__content .link-partner {
+  font-family: "Roboto-Bold";
+}
+.footer-container__content a {
+  color: white;
+}
+.footer-container__content img {
+  font-size: 15px;
+}
+.footer-container__content ul {
+  margin-top: 25px;
+}
+.footer-container__content li {
+  line-height: 1.9;
+}
+.footer-container__content li .fas {
+  margin-right: 10px;
+}
+.footer-container__content li .fa-hands-helping {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
