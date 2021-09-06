@@ -250,13 +250,10 @@ h2
         .article-content
         {
             display: flex;
+            justify-content: space-between;
             align-items: center;
             padding: 25px 15px;
 
-            .article-content__like
-            {
-                margin-left: 130px;
-            }
                 .far
                 {
                     font-size: 24px;

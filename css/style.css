@@ -253,11 +253,9 @@ h2 {
 }
 .main-article__content .article-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 25px 15px;
-}
-.main-article__content .article-content .article-content__like {
-  margin-left: 130px;
 }
 .main-article__content .article-content .far {
   font-size: 24px;
