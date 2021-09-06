@@ -106,6 +106,11 @@ button {
   margin-right: auto;
 }
 
+h2 {
+  font-family: "Roboto-Bold";
+  font-size: 20px;
+}
+
 /*------------------------------------*\
 	Header
 \*------------------------------------*/
@@ -148,10 +153,6 @@ button {
   align-items: center;
   text-align: center;
 }
-.main-header__content h2 {
-  font-family: "Roboto-Bold";
-  font-size: 20px;
-}
 .main-header__content p {
   margin-top: 20px;
 }
@@ -165,6 +166,101 @@ button {
   color: white;
   font-family: "Roboto-Bold";
   font-size: 15px;
+}
+
+/*___________________ Functionning _____________ */
+.main-functioning {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 30px 0px;
+  display: flex;
+}
+.main-functioning h2 {
+  text-align: center;
+}
+.main-functioning__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-functioning__content__objet {
+  margin-top: 20px;
+  background-color: #f6f6f6;
+  height: 75px;
+  padding: 30px 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 15px #d9d9d9;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  position: relative;
+}
+.main-functioning__content__objet .number {
+  background-color: #9356dc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: -10px;
+}
+.main-functioning__content__objet .fas {
+  color: #8d8d8d;
+  margin-right: 30px;
+}
+.main-functioning__content__objet:hover {
+  background-color: #ece1f9;
+}
+.main-functioning__content__objet:hover .fas {
+  color: #9356dc;
+}
+
+/*___________________ Main-article _____________ */
+.main-article {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 65px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-article__content {
+  margin-top: 30px;
+  border-radius: 25px;
+  background-color: white;
+  width: 330px;
+}
+.main-article__content img {
+  width: 100%;
+  height: 175px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.main-article__content a {
+  color: black;
+}
+.main-article__content h3 {
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+}
+.main-article__content .article-content {
+  display: flex;
+  align-items: center;
+  padding: 25px 15px;
+}
+.main-article__content .article-content .article-content__like {
+  margin-left: 130px;
+}
+.main-article__content .article-content .far {
+  font-size: 24px;
 }
 
 /*------------------------------------*\
