@@ -83,7 +83,23 @@ h2
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px 0;
+    position: relative;
+
+    button
+    {
+        position: absolute;
+        left: 15px;
+        border: none;
+        background-color: white;
+
+        .fas
+        {
+            font-size: 22px;
+            color: rgba(53, 53, 53, 1);
+        }
+    }
 }
 
 /*------------------------------------*\
@@ -296,10 +312,12 @@ h2
             li
             {
                 line-height: 1.9;
+
                     .fas
                     { 
                     margin-right: 10px;
                     }
+
                     .fa-hands-helping
                     {
                         font-size: 10px;
@@ -308,3 +326,71 @@ h2
 
         }
 }
+
+/*------------------------------------*\
+	Pages
+\*------------------------------------*/
+
+.bloc-palette
+{
+    display: flex;
+    flex-direction: column;
+    section
+    {
+        padding: 45px 15px;
+        width: 100%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        background-color: rgba(246, 246, 246, 1);
+    }
+
+    h2
+    {
+        font-family: 'shrikhandregular';
+        font-size: 28px;
+            .far
+            {
+               margin-left: 35px; 
+            }
+    }
+}
+
+.main-list-one
+{
+    margin-top: 45px;
+    
+    h3
+    {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    h4
+    {
+        font-family: 'Roboto-Bold';
+        font-size: 16px;
+    }
+
+    &__option
+    {
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+        margin-top: 15px;
+        padding: 15px;
+
+        &--description
+        {
+            display: flex;
+            justify-content: space-between;
+            
+            .price
+            {
+                font-family: 'Roboto-Bold';
+                color: rgba(53, 53, 53, 1);
+            }
+        }
+    }
+}
+
+

@@ -117,7 +117,19 @@ h2 {
 .header-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px 0;
+  position: relative;
+}
+.header-container button {
+  position: absolute;
+  left: 15px;
+  border: none;
+  background-color: white;
+}
+.header-container button .fas {
+  font-size: 22px;
+  color: #353535;
 }
 
 /*------------------------------------*\
@@ -292,6 +304,55 @@ h2 {
 }
 .footer-container__content li .fa-hands-helping {
   font-size: 10px;
+}
+
+/*------------------------------------*\
+	Pages
+\*------------------------------------*/
+.bloc-palette {
+  display: flex;
+  flex-direction: column;
+}
+.bloc-palette section {
+  padding: 45px 15px;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #f6f6f6;
+}
+.bloc-palette h2 {
+  font-family: "shrikhandregular";
+  font-size: 28px;
+}
+.bloc-palette h2 .far {
+  margin-left: 35px;
+}
+
+.main-list-one {
+  margin-top: 45px;
+}
+.main-list-one h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.main-list-one h4 {
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+}
+.main-list-one__option {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 15px #d9d9d9;
+  margin-top: 15px;
+  padding: 15px;
+}
+.main-list-one__option--description {
+  display: flex;
+  justify-content: space-between;
+}
+.main-list-one__option--description .price {
+  font-family: "Roboto-Bold";
+  color: #353535;
 }
 
 /*# sourceMappingURL=style.css.map */
