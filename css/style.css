@@ -381,7 +381,7 @@ h2 {
 }
 
 /*------------------------------------*\
-	Mediaquerries Desktop
+	---Mediaquerries Desktop---
 \*------------------------------------*/
 @media screen and (min-width: 992px) {
   .main-functioning {
@@ -417,7 +417,31 @@ h2 {
   }
 }
 /*------------------------------------*\
-	Mediaquerries Tablette
+	Pages
+\*------------------------------------*/
+.bloc-palette {
+  width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloc-palette .main-list-one ul {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloc-palette .main-list-one ul li {
+  width: 35%;
+}
+.bloc-palette .main-list-one__option {
+  margin-right: 25px;
+}
+
+/*------------------------------------*\
+	---Mediaquerries Tablette---
 \*------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
