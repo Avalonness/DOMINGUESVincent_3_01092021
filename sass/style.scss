@@ -336,50 +336,59 @@ h2
 {
     display: flex;
     flex-direction: column;
+    position: relative;
+        &__decoration
+        {
+            background-color: rgba(246, 246, 246, 1);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            min-width: 100%;
+            height: 25px;
+            position: absolute;
+            top: 280px;
+        }
 
-    section
-    {
-        padding: 45px 15px;
-        width: 100%;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-        background-color: rgba(246, 246, 246, 1);
-    }
+        section
+        {
+            padding: 20px 15px;
+            width: 100%;
+            background-color: rgba(246, 246, 246, 1);
+        }
 
-    h2
-    {
-        font-family: 'shrikhandregular';
-        font-size: 28px;
-            .far
-            {
-               margin-left: 35px; 
-            }
-    }
+        h2
+        {
+            font-family: 'shrikhandregular';
+            font-size: 28px;
+                .far
+                {
+                margin-left: 35px; 
+                }
+        }
 
-    img
-    {
-        object-fit: cover;
-        height: 300px;
-    }
+        img
+        {
+            object-fit: cover;
+            height: 300px;
+        }
 
-    button
-            {
-                margin: 50px 0;
-                height: 50px;
-                width: 215px;
-                border: none;
-                background-color: $ColorSecondary;
-                border-radius: 25px;
-                color: white;
-                font-family: 'Roboto-Bold';
-                font-size: 15px;
-            }
+        button
+                {
+                    margin: 50px 0;
+                    height: 50px;
+                    width: 215px;
+                    border: none;
+                    background-color: $ColorSecondary;
+                    border-radius: 25px;
+                    color: white;
+                    font-family: 'Roboto-Bold';
+                    font-size: 15px;
+                }
 
-    .command-button
-    {
-        display: flex;
-        justify-content: center;
-    }
+        .command-button
+        {
+            display: flex;
+            justify-content: center;
+        }
 }
 
 .main-list-one
