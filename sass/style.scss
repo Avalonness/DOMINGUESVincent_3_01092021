@@ -405,7 +405,7 @@ h2
         {
             content: '';
             border-bottom: 2px solid $ColorThird;
-            width: 10%;
+            width: 35px;
             display: block;
         }
 
@@ -522,11 +522,6 @@ h2
     .main-list-one
     {
 
-        h3:after
-        {
-            width: 2.5%;
-        }
-
         ul
         {
             max-width: 80%;
@@ -600,12 +595,6 @@ h2
     .main-list-one
     {
         width: 100%;
-
-        h3:after
-        {
-            width: 7%;
-        }
-
 
         ul
         {
