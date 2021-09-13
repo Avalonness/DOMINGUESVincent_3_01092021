@@ -363,14 +363,15 @@ h2 {
   font-size: 16px;
   margin-bottom: 5px;
 }
+.main-list-one h3:after {
+  content: "";
+  border-bottom: 2px solid #99e2d0;
+  width: 10%;
+  display: block;
+}
 .main-list-one h4 {
   font-family: "Roboto-Bold";
   font-size: 16px;
-}
-.main-list-one__decoration {
-  border: #99e2d0 2px solid;
-  width: 12%;
-  margin-bottom: 10px;
 }
 .main-list-one__option {
   border-radius: 20px;
@@ -432,7 +433,6 @@ h2 {
   	Pages
   \*------------------------------------*/
   .bloc-palette {
-    width: 1340px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -445,6 +445,9 @@ h2 {
   }
   .bloc-palette__decoration {
     display: none;
+  }
+  .bloc-palette .main-list-one h3:after {
+    width: 2.5%;
   }
   .bloc-palette .main-list-one ul {
     max-width: 80%;
@@ -496,6 +499,9 @@ h2 {
   }
   .bloc-palette .main-list-one {
     width: 100%;
+  }
+  .bloc-palette .main-list-one h3:after {
+    width: 7%;
   }
   .bloc-palette .main-list-one ul {
     display: flex;
