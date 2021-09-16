@@ -1,0 +1,36 @@
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    70% {
+        transform:rotate(360deg);
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0; 
+    }
+}
+
+@keyframes disapear {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        top: -9999px;
+    }
+}
