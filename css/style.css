@@ -510,7 +510,6 @@ h2 {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: -10px;
   font-size: 12px;
 }
 .main-list-one__option--description .price {
@@ -525,7 +524,7 @@ h2 {
   align-items: center;
   background-color: #99e2d0;
   width: 20%;
-  height: 85px;
+  height: 75px;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   position: absolute;
